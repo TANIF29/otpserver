@@ -1,15 +1,16 @@
 {
-  "name": "send-otp-server",
+  "name": "otp-server",
   "version": "1.0.0",
-  "description": "Node.js server to send OTP emails using Nodemailer",
+  "description": "OTP email sending service",
   "main": "send_otp.js",
   "scripts": {
     "start": "node send_otp.js"
   },
-  "author": "Tanif",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "nodemailer": "^6.9.3"
+    "nodemailer": "^6.9.4"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
